@@ -1,0 +1,76 @@
+jffs2_1pass.o: jffs2_1pass.c \
+  /root/U-Boot移植/u-boot-1.1.6/include/common.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/config.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/configs/TE2440.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/cmd_confdefs.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/bitops.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/bitops.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/types.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/config.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/posix_types.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/stddef.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/posix_types.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/types.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/string.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/string.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/ptrace.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /usr/local/arm/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/part.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/ide.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/flash.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/image.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/u-boot.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/global_data.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/mach-types.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/setup.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/malloc.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/stat.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/time.h
+compr_rtime.o: compr_rtime.c \
+  /root/U-Boot移植/u-boot-1.1.6/include/config.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/configs/TE2440.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/cmd_confdefs.h
+compr_rubin.o: compr_rubin.c \
+  /root/U-Boot移植/u-boot-1.1.6/include/config.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/configs/TE2440.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/cmd_confdefs.h
+compr_zlib.o: compr_zlib.c \
+  /root/U-Boot移植/u-boot-1.1.6/include/common.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/config.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/configs/TE2440.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/cmd_confdefs.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/bitops.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/bitops.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/types.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/config.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/posix_types.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/stddef.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/posix_types.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/types.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/linux/string.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/string.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/ptrace.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /usr/local/arm/gcc-3.4.5-glibc-2.3.6/bin/../lib/gcc/arm-linux/3.4.5/include/stdarg.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/part.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/ide.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/flash.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/image.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/u-boot.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/global_data.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/mach-types.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/setup.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/asm/u-boot-arm.h
+mini_inflate.o: mini_inflate.c \
+  /root/U-Boot移植/u-boot-1.1.6/include/config.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/configs/TE2440.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/cmd_confdefs.h
+compr_lzo.o: compr_lzo.c /root/U-Boot移植/u-boot-1.1.6/include/config.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/configs/TE2440.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/cmd_confdefs.h
+compr_lzari.o: compr_lzari.c \
+  /root/U-Boot移植/u-boot-1.1.6/include/config.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/configs/TE2440.h \
+  /root/U-Boot移植/u-boot-1.1.6/include/cmd_confdefs.h
